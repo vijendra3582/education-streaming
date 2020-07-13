@@ -433,6 +433,8 @@ export default {
   },
 
   created() {
+
+    document.title = "Education Streaming";
     axios.get("/api/admin/check/permission").then(response => {
       if (response.status === 200) {
         this.$auth.setDetails(

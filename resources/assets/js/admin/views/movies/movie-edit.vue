@@ -514,3 +514,19 @@
         }
     };
 </script>
+<style scoped>
+.card {
+    float: left;
+    width: 100%;
+    padding: 28px;
+    background: #fff;
+}
+.card-header {
+    padding: 0;
+}
+.card-header .btn-link {
+    color: #03A9F4;
+    padding: 0;
+    padding-bottom: 10px;
+}
+</style>

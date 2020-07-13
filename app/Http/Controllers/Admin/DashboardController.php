@@ -218,7 +218,7 @@ class DashboardController extends Controller
 
         // Check FFmpeg
 
-        $ffmpeg = trim(shell_exec('which ffmpeg')); // or better yet:
+        $ffmpeg = trim(shell_exec('ffmpeg -version')); // or better yet:
         if (empty($ffmpeg))
         {
             $ffmpeg_status  = false;

@@ -3,14 +3,14 @@
 
     <div class="k1_manage_table">
 
-      <h5 class="title p-2">Actors</h5>
+      <h5 class="title p-2">Instructor</h5>
       <div class="my-2 p-3">
 
         <div class="col-12 row">
           <div class="col-6">
             <div class="group-btn">
               <button type="button" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#CreateActorModal">
-                Create new actor
+                Create new instructor
               </button>
             </div>
           </div>
@@ -33,7 +33,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="CreateActorModalLabel">New actor</h5>
+                  <h5 class="modal-title" id="CreateActorModalLabel">New instructor</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>

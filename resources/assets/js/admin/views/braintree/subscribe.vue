@@ -91,8 +91,10 @@
 
 <script>
 const alertify = require("alertify.js");
+import Loader from "../components/loader";
 
 export default {
+
     data() {
         return {
             planList: [],

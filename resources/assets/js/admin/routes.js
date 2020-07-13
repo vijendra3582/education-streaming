@@ -90,7 +90,7 @@ let routes = [
 
 
     {
-        path: '/actors/manage',
+        path: '/instructors/manage',
         name: 'actors-manage',
         component: require('./views/actors/manage.vue')
     },
